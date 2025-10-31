@@ -1,3 +1,5 @@
+edu/eci/endpoints/BBEndpoint.class
 edu/eci/App.class
 edu/eci/BBAppStarter.class
+edu/eci/configurator/BBConfigurator.class
 edu/eci/controllers/DrawingServiceController.class
