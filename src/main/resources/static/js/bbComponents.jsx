@@ -1,12 +1,16 @@
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+// Retorna la url del servicio. Es una función de configuración.
 function BBServiceURL() {
-  var host = window.location.host;
-  var url = 'wss://' + (host) + '/bbService';
-  if (host.toString().startsWith("localhost")) {
-    url = 'ws://' + (host) + '/bbService';
-  }
-  return url;
+var host = window.location.host;
+console.log("Host: " + host);
+// En heroku necesita conexiones seguras de web socket
+var url = 'wss://' + (host) + '/bbService';
+if(host.toString().startsWith("localhost")){
+url = 'ws://' + (host) + '/bbService';
+}
+console.log("URL Calculada: " + url);
+return url;
 }
 
 class WSBBChannel {
