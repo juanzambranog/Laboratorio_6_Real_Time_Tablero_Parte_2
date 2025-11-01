@@ -9,6 +9,8 @@
 
 # Tutorial Spring.io, Websockets, ReactJs-18, P5.js,AWS: buenas prácticas de Diseño
 
+## [LABORATORIO 6 Real Time Introducción ](https://github.com/juanzambranog/Laboratorio_6_Real_Time_Introducci-n_ARSW.git) 
+
 > Vamos ahora a construir una aplicación interactiva en tiempo real usando una buena estrategia de diseño. Para esto vamos a construir una aplicación que permite dibujar de manera colaborativa en tiempo real.
 
 > La aplicación soporta múltiples clientes. La comunicación es en tiempo real. 
